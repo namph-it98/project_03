@@ -10,10 +10,4 @@ export const sequelize = new Sequelize({
 
   'dialect': config.dialect,
   'storage': ':memory:',
-  'dialectOptions': { //< Add this
-    'ssl': {
-       'require': true,
-       'rejectUnauthorized': false
-    }
- }
 });
