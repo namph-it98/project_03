@@ -16,3 +16,4 @@ services:
     build:
       context: ./udagram-frontend
     image: udagram-frontend:local
+    platform: linux/x86_64 # Specify the architecture here
