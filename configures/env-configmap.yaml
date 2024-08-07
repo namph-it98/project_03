@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  POSTGRESS_USERNAME: postgres
+  POSTGRESS_PASSWORD: Password123456
+  POSTGRESS_HOST: database-1.czavn5vd32e7.us-east-1.rds.amazonaws.com
+  POSTGRESS_DB: postgres
+  AWS_BUCKET: arn:aws:s3:::udacity-project-03
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: helloworld
+  URL: http://localhost:8100
