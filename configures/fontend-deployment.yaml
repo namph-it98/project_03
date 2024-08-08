@@ -13,7 +13,7 @@ spec:
         run: frontend
     spec:
       containers:
-      - image: vesmaxx/udagram-frontend:v2
+      - image: vesmaxx/udagram-frontend:v4
         name: frontend
         imagePullPolicy: Always          
         ports:

@@ -13,7 +13,7 @@ spec:
         run: backend-feed
     spec:
       containers:
-      - image: vesmaxx/udagram-api-feed:v2
+      - image: vesmaxx/udagram-api-feed:v4
         name: backend-feed
         resources:
           requests:
