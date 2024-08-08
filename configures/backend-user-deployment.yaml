@@ -13,7 +13,7 @@ spec:
         run: backend-user
     spec:
       containers:
-      - image: vesmaxx/udagram-api-user:v4
+      - image: vesmaxx/udagram-api-user:v5
         name: backend-user
         resources:
           requests:
