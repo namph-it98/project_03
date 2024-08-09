@@ -13,7 +13,7 @@ spec:
         run: reverseproxy
     spec:
       containers:
-        - image: vesmaxx/udagram-reverseproxy:v5
+        - image: vesmaxx/udagram-reverseproxy:v6
           name: reverseproxy
           imagePullPolicy: Always
           resources:

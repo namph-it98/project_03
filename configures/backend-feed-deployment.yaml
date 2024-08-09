@@ -13,11 +13,11 @@ spec:
         run: backend-feed
     spec:
       containers:
-      - image: vesmaxx/udagram-api-feed:v5
+      - image: vesmaxx/udagram-api-feed:v6
         name: backend-feed
         resources:
           requests:
-            memory: "64Mi"
+            memory: "512Mi"
             cpu: "250m"
           limits:
             memory: "1024Mi"
@@ -77,18 +77,3 @@ spec:
       - name: aws-secret
         secret:
           secretName: aws-secret
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  labels:
-    service: backend-feed
-  name: backend-feed
-spec:
-  ports:
-  - name: "8080"
-    port: 8080
-    targetPort: 8080
-  selector:
-    service: backend-feed
