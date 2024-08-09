@@ -13,7 +13,7 @@ spec:
         run: reverseproxy
     spec:
       containers:
-        - image: vesmaxx/udagram-reverseproxy:v8
+        - image: vesmaxx/udagram-reverseproxy:v9
           name: reverseproxy
           imagePullPolicy: Always
           resources:
@@ -25,18 +25,3 @@ spec:
               cpu: "500m"
           ports:
             - containerPort: 80
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  labels:
-    service: reverseproxy
-  name: reverseproxy
-spec:
-  ports:
-  - name: "8080"
-    port: 8080
-    targetPort: 8080
-  selector:
-    service: reverseproxy

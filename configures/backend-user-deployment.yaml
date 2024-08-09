@@ -13,7 +13,7 @@ spec:
         run: backend-user
     spec:
       containers:
-      - image: vesmaxx/udagram-api-user:v8
+      - image: vesmaxx/udagram-api-user:v9
         name: backend-user
         resources:
           requests:
@@ -77,18 +77,3 @@ spec:
       - name: aws-secret
         secret:
           secretName: aws-secret
-
-# ---
-# apiVersion: v1
-# kind: Service
-# metadata:
-#   labels:
-#     service: backend-user
-#   name: backend-user
-# spec:
-#   ports:
-#   - name: "8080"
-#     port: 8080
-#     targetPort: 8080
-#   selector:
-#     service: backend-user
