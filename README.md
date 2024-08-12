@@ -32,4 +32,6 @@ kubectl describe hpa
 ```bash
 kubectl logs {pod_name}
 ```
+[](https://github.com/namph-it98/project_03/blob/main/screenshots/log.png)
+]((https://github.com/namph-it98/project_03/blob/main/screenshots/log.png))
 
