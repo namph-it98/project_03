@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: vesmaxx/udagram-frontend:v20
+      - image: vesmaxx/udagram-frontend:v21
         name: frontend
         imagePullPolicy: Always          
         ports:
