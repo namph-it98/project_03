@@ -5,9 +5,8 @@
 export const environment = {
   production: false,
   appName: 'Udagram',
-  apiHost: 'http://a21f512e2265145bb97fa0c75a963420-514112095.us-east-1.elb.amazonaws.com:8080/api/v0'
-};
-
+  apiHost: 'http://a197bf5d0593648dcb89c85fef4640f0-1052672520.us-east-1.elb.amazonaws.com:8080/api/v0'
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
