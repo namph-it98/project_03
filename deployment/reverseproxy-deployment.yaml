@@ -16,7 +16,7 @@ spec:
       name: backend-user
     spec:
       containers:
-      - image: vesmaxx/udagram-reverseproxy:v15
+      - image: vesmaxx/udagram-reverseproxy:v17
         name: reverseproxy
         imagePullPolicy: Always          
         resources:

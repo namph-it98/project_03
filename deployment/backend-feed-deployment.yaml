@@ -15,7 +15,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: vesmaxx/udagram-api-feed:v15
+      - image: vesmaxx/udagram-api-feed:v17
         name: backend-feed
         imagePullPolicy: Always 
         resources:
