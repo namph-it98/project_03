@@ -26,6 +26,8 @@ kubectl describe services
 kubectl describe hpa
 ```
 
+[h[ttps://github.com/namph-it98/project_03/blob/main/screenshots/services.png](https://github.com/namph-it98/project_03/blob/main/screenshots/pha.png)
+
 * To verify that you have set up logging with a backend application
 ```bash
 kubectl logs {pod_name}
